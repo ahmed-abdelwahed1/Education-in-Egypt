@@ -1,6 +1,6 @@
 # Education in Egypt — Exploratory Data Analysis Project
 
-<div align="center">
+<div>
 
 | | |
 |---|---|
@@ -10,19 +10,6 @@
 | **Date** | April 2026 |
 
 </div>
-
----
-
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Dataset Description](#dataset-description)
-3. [Project Structure](#project-structure)
-4. [Libraries Used](#libraries-used)
-5. [How to Run](#how-to-run)
-6. [Analysis Steps](#analysis-steps)
-7. [Visualizations](#visualizations)
-8. [Key Findings](#key-findings)
 
 ---
 
