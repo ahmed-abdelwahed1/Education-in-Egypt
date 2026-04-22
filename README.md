@@ -178,7 +178,7 @@ Three education tracks are nearly evenly split:
 | IGCSE | 16,478 | 33.0% |
 
 <div align="center">
-<img src="plots/plot_edu_type.png" alt="Education Type Distribution" width="500">
+<img src="plots/plot_edu_type.png" alt="Education Type Distribution">
 </div>
 
 ### 2. Student Age Distribution
@@ -186,7 +186,7 @@ Three education tracks are nearly evenly split:
 Ages 14–18 are uniformly distributed (~10,000 students per age).
 
 <div align="center">
-<img src="plots/plot_age_dist.png" alt="Student Age Distribution" width="600">
+<img src="plots/plot_age_dist.png" alt="Student Age Distribution">
 </div>
 
 ### 3. Average Grade by Demographic Category
@@ -214,7 +214,7 @@ All four demographic breakdowns (Education Type, School Year, Father Degree, Mot
 | PhD | 74.66% |
 
 <div align="center">
-<img src="plots/plot_avg_by_category.png" alt="Average Grade by Category" width="700">
+<img src="plots/plot_avg_by_category.png" alt="Average Grade by Category">
 </div>
 
 > [!IMPORTANT]
@@ -225,7 +225,7 @@ All four demographic breakdowns (Education Type, School Year, Father Degree, Mot
 All 10 subjects cluster within a narrow **74.6–74.8%** band. Subject_4 is the highest (74.79%), Subject_5 is the lowest (74.61%).
 
 <div align="center">
-<img src="plots/plot_subject_avgs.png" alt="Subject Averages" width="700">
+<img src="plots/plot_subject_avgs.png" alt="Subject Averages">
 </div>
 
 ### 5. Overall Grade Distribution
@@ -233,7 +233,7 @@ All 10 subjects cluster within a narrow **74.6–74.8%** band. Subject_4 is the 
 The distribution is **left-skewed** with a peak around 75%, a hard floor at 20%, and a hard ceiling at 100%. The bulk of grades fall in the 55–95% range.
 
 <div align="center">
-<img src="plots/plot_grade_dist.png" alt="Grade Distribution" width="700">
+<img src="plots/plot_grade_dist.png" alt="Grade Distribution">
 </div>
 
 ### 6. Inter-Subject Correlation Matrix
@@ -241,7 +241,7 @@ The distribution is **left-skewed** with a peak around 75%, a hard floor at 20%,
 All off-diagonal correlations are essentially **zero** (max |r| = 0.0123). Subjects are statistically independent of each other.
 
 <div align="center">
-<img src="plots/plot_corr_heatmap.png" alt="Correlation Heatmap" width="600">
+<img src="plots/plot_corr_heatmap.png" alt="Correlation Heatmap">
 </div>
 
 ### Key Statistics Summary
