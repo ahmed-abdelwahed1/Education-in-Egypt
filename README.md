@@ -1,8 +1,6 @@
-# Education in Egypt — Exploratory Data Analysis
+# Education in Egypt — Exploratory Data Analysis Project
 
 <div align="center">
-
-**Data Analysis Course Project**
 
 | | |
 |---|---|
