@@ -60,6 +60,7 @@ Education in Egypt/
 ├── README.md              # Project documentation (this file)
 ├── eda.py                 # Main EDA Python script
 ├── requirements.txt       # Python dependencies
+├── Dashboard.html         # Interactive EDA Dashboard
 │
 ├── data/
 │   └── dataset.csv        # Raw dataset (50,000 rows)
