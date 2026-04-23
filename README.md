@@ -166,6 +166,43 @@ Print a consolidated summary of all key metrics and findings.
 
 ## Visualizations & Results
 
+### Plot Gallery
+
+Click any plot to open full size.
+
+<table align="center">
+    <tr>
+        <td align="center" width="33%">
+            <a href="plots/plot_edu_type.png"><img src="plots/plot_edu_type.png" alt="Education Type Distribution" width="100%"></a><br>
+            <sub><b>1) Education Type Distribution</b></sub>
+        </td>
+        <td align="center" width="33%">
+            <a href="plots/plot_age_dist.png"><img src="plots/plot_age_dist.png" alt="Student Age Distribution" width="100%"></a><br>
+            <sub><b>2) Student Age Distribution</b></sub>
+        </td>
+        <td align="center" width="33%">
+            <a href="plots/plot_avg_by_category.png"><img src="plots/plot_avg_by_category.png" alt="Average Grade by Category" width="100%"></a><br>
+            <sub><b>3) Avg Grade by Demographics</b></sub>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" width="33%">
+            <a href="plots/plot_subject_avgs.png"><img src="plots/plot_subject_avgs.png" alt="Subject Averages" width="100%"></a><br>
+            <sub><b>4) Average Grade per Subject</b></sub>
+        </td>
+        <td align="center" width="33%">
+            <a href="plots/plot_grade_dist.png"><img src="plots/plot_grade_dist.png" alt="Grade Distribution" width="100%"></a><br>
+            <sub><b>5) Overall Grade Distribution</b></sub>
+        </td>
+        <td align="center" width="33%">
+            <a href="plots/plot_corr_heatmap.png"><img src="plots/plot_corr_heatmap.png" alt="Correlation Heatmap" width="100%"></a><br>
+            <sub><b>6) Inter-Subject Correlation Matrix</b></sub>
+        </td>
+    </tr>
+</table>
+
+---
+
 ### 1. Education Type Distribution
 
 Three education tracks are nearly evenly split:
@@ -177,7 +214,7 @@ Three education tracks are nearly evenly split:
 | IGCSE | 16,478 | 33.0% |
 
 <div align="center">
-<img src="plots/plot_edu_type.png" alt="Education Type Distribution">
+<img src="plots/plot_edu_type.png" alt="Education Type Distribution" width="900">
 </div>
 
 ### 2. Student Age Distribution
@@ -185,7 +222,7 @@ Three education tracks are nearly evenly split:
 Ages 14–18 are uniformly distributed (~10,000 students per age).
 
 <div align="center">
-<img src="plots/plot_age_dist.png" alt="Student Age Distribution">
+<img src="plots/plot_age_dist.png" alt="Student Age Distribution" width="900">
 </div>
 
 ### 3. Average Grade by Demographic Category
@@ -213,7 +250,7 @@ All four demographic breakdowns (Education Type, School Year, Father Degree, Mot
 | PhD | 74.66% |
 
 <div align="center">
-<img src="plots/plot_avg_by_category.png" alt="Average Grade by Category">
+<img src="plots/plot_avg_by_category.png" alt="Average Grade by Category" width="900">
 </div>
 
 > [!IMPORTANT]
@@ -224,7 +261,7 @@ All four demographic breakdowns (Education Type, School Year, Father Degree, Mot
 All 10 subjects cluster within a narrow **74.6–74.8%** band. Subject_4 is the highest (74.79%), Subject_5 is the lowest (74.61%).
 
 <div align="center">
-<img src="plots/plot_subject_avgs.png" alt="Subject Averages">
+<img src="plots/plot_subject_avgs.png" alt="Subject Averages" width="900">
 </div>
 
 ### 5. Overall Grade Distribution
@@ -232,7 +269,7 @@ All 10 subjects cluster within a narrow **74.6–74.8%** band. Subject_4 is the 
 The distribution is **left-skewed** with a peak around 75%, a hard floor at 20%, and a hard ceiling at 100%. The bulk of grades fall in the 55–95% range.
 
 <div align="center">
-<img src="plots/plot_grade_dist.png" alt="Grade Distribution">
+<img src="plots/plot_grade_dist.png" alt="Grade Distribution" width="900">
 </div>
 
 ### 6. Inter-Subject Correlation Matrix
@@ -240,7 +277,7 @@ The distribution is **left-skewed** with a peak around 75%, a hard floor at 20%,
 All off-diagonal correlations are essentially **zero** (max |r| = 0.0123). Subjects are statistically independent of each other.
 
 <div align="center">
-<img src="plots/plot_corr_heatmap.png" alt="Correlation Heatmap">
+<img src="plots/plot_corr_heatmap.png" alt="Correlation Heatmap" width="900">
 </div>
 
 ### Key Statistics Summary
