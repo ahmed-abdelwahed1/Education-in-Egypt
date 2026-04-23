@@ -229,11 +229,18 @@ Ages 14–18 are uniformly distributed (~10,000 students per age).
 
 All four demographic breakdowns (Education Type, School Year, Father Degree, Mother Degree) show remarkably tight mean grades in the **74.4–74.9%** band — differences are < 0.1 percentage points.
 
+<table align="center" width="100%">
+    <tr>
+    <td valign="top" width="33%">
+
 | Education Type | Avg Grade |
 |---------------|-----------|
 | Thanweya | 74.74% |
 | IB | 74.71% |
 | IGCSE | 74.66% |
+
+    </td>
+    <td valign="top" width="33%">
 
 | Father Degree | Avg Grade |
 |--------------|-----------|
@@ -242,12 +249,19 @@ All four demographic breakdowns (Education Type, School Year, Father Degree, Mot
 | High School | 74.69% |
 | Master | 74.67% |
 
+    </td>
+    <td valign="top" width="33%">
+
 | Mother Degree | Avg Grade |
 |--------------|-----------|
 | Master | 74.74% |
 | Bachelor | 74.73% |
 | High School | 74.73% |
 | PhD | 74.66% |
+
+    </td>
+    </tr>
+</table>
 
 <div align="center">
 <img src="plots/plot_avg_by_category.png" alt="Average Grade by Category" width="900">
