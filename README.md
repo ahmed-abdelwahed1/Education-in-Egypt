@@ -2,11 +2,12 @@
 
 <div>
 
-| | |
+| Project | Education in Egypt — Exploratory Data Analysis |
 |---|---|
 | **Student** | Ahmed Shehata Said Abdelwahed |
 | **Academic Year** | 3rd Year |
 | **Course** | Data Analysis |
+| **Supervisor** | Dr. Mohamed Mahmoud Mohamed Elsayed Ghoneim |
 | **Date** | April 2026 |
 
 </div>
@@ -98,6 +99,7 @@ python eda.py
 ```
 
 The script will:
+
 - Print all statistics and findings to the console
 - Save 6 plots as PNG files in the `plots/` directory
 
@@ -108,45 +110,56 @@ The script will:
 The EDA follows 10 sequential steps, each clearly labeled in the script:
 
 ### Step 1 — Load & Inspect the Dataset
+
 Load `dataset.csv` using pandas and inspect its shape (50,000 × 16), data types,
 and missing values. This step confirms 20% missing parental degree data.
 
 ### Step 2 — Descriptive Statistics
+
 Generate summary statistics (`describe()`) for all numerical columns and frequency
 counts for each categorical variable (Education Type, Father/Mother Degree, Student Year, Age).
 
 ### Step 3 — Feature Engineering
+
 Create a new computed column `avg_grade` — the mean score across all 10 subjects
 for each student. This derived feature simplifies downstream comparisons.
 
 ### Step 4 — Education Type Distribution (Donut Chart)
+
 Visualize the distribution of the three education systems. All three are nearly
 equally represented: IB (34.0%), Thanweya (33.1%), IGCSE (33.0%).
 
 ### Step 5 — Student Age Distribution (Bar Chart)
+
 Plot the count of students per age group (14–18). The distribution is uniform,
 with approximately 10,000 students per age.
 
 ### Step 6 — Average Grade by Demographic Category (2×2 Bar Chart)
+
 Compare average grades across four groupings in a single figure:
+
 - Education Type
 - Student Year
 - Father's Degree
 - Mother's Degree
 
 ### Step 7 — Per-Subject Average Grades (Bar Chart)
+
 Compare the mean grade across all 10 subjects to identify any subject-level
 variations. All subjects cluster within the 74.6–74.8% range.
 
 ### Step 8 — Overall Grade Distribution (Histogram)
+
 Flatten all 500,000 individual grades into a single histogram to visualize the
 overall grade distribution, with a mean reference line at 74.7%.
 
 ### Step 9 — Inter-Subject Correlation Heatmap
+
 Compute and visualize the Pearson correlation matrix between all 10 subjects.
 Maximum off-diagonal correlation is 0.0123, indicating near-zero correlation.
 
 ### Step 10 — Key Findings Summary
+
 Print a consolidated summary of all key metrics and findings.
 
 ---
